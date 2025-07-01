@@ -1,0 +1,63 @@
+fabric-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 4px;
+}
+
+.radio-group-demo-input {
+  margin-top: 20px;
+}
+
+.radio-group-demo-input input {
+  margin-left: 5px;
+}
+
+fabric-radio {
+  margin-right: 6px;
+}
+
+label {
+  margin-left: 2px;
+}
+
+.radio-group-demo-value {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.radio-demo-tag {
+  background-color: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.radio-group-demo-error {
+  display: block;
+  color: red;
+  margin-top: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.validation-message {
+  color: #e81123;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.submit-confirmation {
+  color: #9d88;
+  margin-top: 8px;
+  font-weight: 500;
+}

@@ -11,10 +11,6 @@ import { fabricLightTheme, setTheme } from '@fabric-msft/theme';
 export class AppComponent {
   constructor(private ngZone: NgZone) {
     console.log(
-      'patched mutations',
-      (window as any).__Zone_disable_MutationObserver
-    );
-    console.log(
       'patched event target',
       (window as any).__Zone_disable_EventTarget
     );
