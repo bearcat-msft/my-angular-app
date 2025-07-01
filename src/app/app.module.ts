@@ -1,16 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import {
+  FabricButtonModule,
+  FabricRadioModule,
+  FabricRadioGroupModule,
+} from '@fabric-msft/fabric-angular';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule,
+    FabricButtonModule,
+    FabricRadioModule,
+    FabricRadioGroupModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
